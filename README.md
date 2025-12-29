@@ -54,11 +54,11 @@ Tests are implemented with **Vitest**. To run:
 
 Tests use a local MongoDB connection and will clear test collections before and after running.
 
-## API Documentation
+## Live Demo
 
-Swagger documentation is available at:
+Available at:
 
-[Coming soon...]()
+[Live Demo](https://store-user-product-api.onrender.com/)
 
 ## Endpoints Overview
 
