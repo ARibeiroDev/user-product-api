@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User-Products API</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1 class="logo">E-commerce API</h1>
+      <nav>
+        <a href="https://github.com/ARibeiroDev/user-product-api">Github</a>
+        <a href="/api-docs">Docs</a>
+      </nav>
+    </header>
+    <main>
+      <h2>Welcome to my E-commerce API!</h2>
+      <p>
+        A complete backend for an online store. Supports user authentication
+        (register, verify, login, logout, password reset) and full product
+        management (create, read, update, delete). <br />
+        Built with Express, TypeScript, and MongoDB, with secure token-based
+        access and automated tests.
+      </p>
+    </main>
+    <footer>
+      <p>&copy; <span id="year"></span> All Rights Reserved. Alberto Ribeiro</p>
+    </footer>
+    <script>
+      const year = document.getElementById("year");
+      year.textContent = new Date().getFullYear().toString();
+    </script>
+  </body>
+</html>
